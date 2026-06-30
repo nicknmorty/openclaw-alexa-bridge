@@ -1,0 +1,50 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "claw bridge",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "PassThroughIntent",
+          "slots": [
+            {
+              "name": "Query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "also {Query}",
+            "and {Query}",
+            "ask {Query}",
+            "can you {Query}",
+            "check {Query}",
+            "find out {Query}",
+            "look up {Query}",
+            "please {Query}",
+            "search for {Query}",
+            "tell the assistant to {Query}",
+            "tell me {Query}",
+            "what about {Query}",
+            "to {Query}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "enabled": true,
+    "path": "/hooks",
+    "token": "${OPENCLAW_ALEXA_HOOK_TOKEN}",
+    "allowedAgentIds": ["example-agent"],
+    "defaultSessionKey": "hook:alexa",
+    "allowedSessionKeyPrefixes": ["hook:alexa"],
+    "allowRequestSessionKey": false,
+    "maxBodyBytes": 65536
+  }
+}

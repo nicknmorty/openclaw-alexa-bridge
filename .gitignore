@@ -1,0 +1,11 @@
+.ask/
+.venv/
+__pycache__/
+*.pyc
+
+build/
+dist/
+lambda.zip
+
+.env
+lambda_generated.py

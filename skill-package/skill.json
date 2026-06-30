@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Development skill for sending voice requests to an authenticated OpenClaw hook endpoint.",
+      "locales": {
+        "en-US": {
+          "name": "OpenClaw Bridge",
+          "summary": "Send spoken requests to OpenClaw.",
+          "description": "Skill that forwards spoken requests to an authenticated OpenClaw agent hook.",
+          "examplePhrases": [
+            "Alexa, ask claw bridge to check the server",
+            "Alexa, tell claw bridge to check the queue",
+            "Alexa, open claw bridge"
+          ],
+          "keywords": [
+            "assistant",
+            "automation",
+            "openclaw"
+          ]
+        }
+      }
+    },
+    "apis": {
+      "custom": {}
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    }
+  }
+}
